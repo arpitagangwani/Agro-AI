@@ -1,0 +1,57 @@
+Reset some default styles for consistency
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4;  */
+    color: #333;
+}
+
+/* header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1, footer p {
+    text-align: center;
+} */
+
+main {
+    padding: 2rem;
+    width: 60rem ;
+    margin-left: 240px;
+    margin-top: 160px;
+    
+}
+
+.contact-info {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.contact-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    line-height: 1.6;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
